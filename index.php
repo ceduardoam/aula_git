@@ -28,7 +28,8 @@
                 git log
                 5.2 - comando para realizar adicao de novos arquivos e alterações e commits ao mesmo tempo no repositorio. Muito
                 util em situações que não se deseja ter que ficar trackeando cada arquivo novo por vez que for adicionado para 
-                depois comitar: git add - A && git commit -m "Novo commit"
+                depois comitar: git add -A && git commit -m "Novo commit"
+                5.3 - recuperar commits (versoes) antigos: git reset --hard código_do_commit
             6 - Branch: um branch representa um repositorio que conterá todos os commits (versoes) do projeto. O Git permite criar
             mais um de um brach para termos mais de um repositorio do projeto, sendo que cada alteração que ocorrer irá corresponder
             ao branch desse projeto em específico.
