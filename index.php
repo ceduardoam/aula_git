@@ -45,6 +45,13 @@
             na conta do github (menu settings, opcao SSH and GPG Keys)
             3 - criar um novo respositorio no git hub
             4 - commit remoto no repositorio do github
+
+            - INTEGRAÇÃO
+            1 - git remote -v - exibe a url do respositorio remoto que estamos trabalhando
+            2 - git remote rm origin - remove a url existente do repositorio que estamos trabalhando
+            3 - git remote add origin url_do_repositorio_remoto - conecta o repositorio local a url do repositorio remoto do github
+            Desse ponto em diante, podemos fazer commits remotos para este repositorio
+            4 - git pull origin master - importar repositorio remoto para o local
         -->
 
         <?php
