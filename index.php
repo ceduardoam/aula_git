@@ -30,6 +30,10 @@
 
         <?php
             echo 'Olá da Danki Code!';
+
+            function teste() {
+                return 'danki code';
+            }
         ?>
     </body>
 </html>
