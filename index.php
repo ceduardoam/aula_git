@@ -24,6 +24,8 @@
             5 - commit serve para salvarmos no repositório a versão do projeto. A cada novo commit, uma nova versão é salva no
             repositorio, sendo possivel a recuperação de versoes anteriores. Comando para isso: git commit -m "meu commit novo"
                 obs: sempre dar um git add -A antes do commit para salvar as alterações primeiro antes de enviar ao repositorio 
+                5.1 - comando para ver o historio de todos os commits (versoes) feitos do projeto no repositorio:
+                git log
         -->
 
         <?php
