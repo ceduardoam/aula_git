@@ -31,8 +31,7 @@
             ao branch desse projeto em específico.
                 6.1 - mostra todos os branchs do projeto: git branch
                 6.2 - cria um novo branch: git branch "novo_branch"
-                6.3 - cria um novo branch e muda do branch atual para esse novo branch: git checkout "outro_branch"
-                obs: se o branch não existir, ele será criado. Se existir, será apenas alterado do branch atual para esse selecionado.
+                6.3 - muda do branch atual para esse novo branch: git checkout "outro_branch"
         -->
 
         <?php
