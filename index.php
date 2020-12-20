@@ -26,6 +26,13 @@
                 obs: sempre dar um git add -A antes do commit para salvar as alterações primeiro antes de enviar ao repositorio 
                 5.1 - comando para ver o historio de todos os commits (versoes) feitos do projeto no repositorio:
                 git log
+            6 - Branch: um branch representa um repositorio que conterá todos os commits (versoes) do projeto. O Git permite criar
+            mais um de um brach para termos mais de um repositorio do projeto, sendo que cada alteração que ocorrer irá corresponder
+            ao branch desse projeto em específico.
+                6.1 - mostra todos os branchs do projeto: git branch
+                6.2 - cria um novo branch: git branch "novo_branch"
+                6.3 - cria um novo branch e muda do branch atual para esse novo branch: git checkout "outro_branch"
+                obs: se o branch não existir, ele será criado. Se existir, será apenas alterado do branch atual para esse selecionado.
         -->
 
         <?php
