@@ -52,6 +52,7 @@
             3 - git remote add origin url_do_repositorio_remoto - conecta o repositorio local a url do repositorio remoto do github
             Desse ponto em diante, podemos fazer commits remotos para este repositorio
             4 - git pull origin master - importar repositorio remoto para o local
+            5 - git push origin master - exportar repositorio local para o remoto
         -->
 
         <?php
